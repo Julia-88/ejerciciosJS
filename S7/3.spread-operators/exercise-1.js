@@ -1,15 +1,5 @@
-const users = [
-  { id: 1, name: "Abel" },
-  { id: 2, name: "Julia" },
-  { id: 3, name: "Pedro" },
-  { id: 4, name: "Amanda" },
-];
+const pointsList = [32, 54, 21, 64, 75, 43]
 
-const usersName = users.map(() => {
-    return {
-        name: user.name,
-        age: user.age
-    }
-})
+const copiedPointsList = [...pointsList]
 
-console.log(usersName);
+console.log(copiedPointsList);

@@ -6,3 +6,4 @@ const animalFunction = () => {
     return {name: 'Bengal Tiger', race: 'Tiger'}
 };
 ```
+
